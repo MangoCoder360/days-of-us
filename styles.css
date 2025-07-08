@@ -9,7 +9,8 @@ body {
     padding: 0;
     overflow: hidden;
 
-    font-family: sans-serif;
+    /* font-family: sans-serif; */
+    font-family: "Old Standard TT", serif;
 }
 
 #status-bar {
@@ -22,6 +23,8 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    
+    font-family: sans-serif;
 }
 
 #content {
@@ -32,7 +35,21 @@ body {
 }
 
 #days {
-    font-size: 8em;
+    font-size: 8.5em;
+    margin: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#weeks {
+    font-size: 5em;
+    margin: 20px;
+    color: #ffffff;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+}
+
+#months {
+    font-size: 4em;
     margin: 20px;
     color: #ffffff;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
